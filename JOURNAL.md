@@ -4,7 +4,7 @@ title: "rc\_speedway"
 author: "Kiyan Kesheh"
 description: "50 mph rc speedster!"
 created\_at: "2025-03-14"
--------------------------
+---
 
 ## Day 1 (03/14/2025)
 
