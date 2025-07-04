@@ -1,60 +1,66 @@
 ---
-title: "rc_speedway"
+
+title: "rc\_speedway"
 author: "Kiyan Kesheh"
-description: "50 mph rc speedster!
-created_at: "2025-05-26"
+description: "50 mph rc speedster!"
+created\_at: "2025-03-14"
+-------------------------
+
+## Day 1 (03/14/2025)
+
+Spent the whole day researching what components would be best for a high-speed 1/10 scale RC car. My main goal was to build something that could reach 50+ mph without breaking the bank. I compared a ton of different motors based on torque curves, RPM limits, and KV ratings. After some digging, I decided on the **Surpass Hobby Rocket 3650 3900KV motor**. It had solid reviews and a proven track record in lightweight RC speed builds. For the ESC, I went with a **60A unit** that could handle high amp draw under full throttle without thermal shutdowns.
+
+To power the whole setup, I picked **HOOVO 4S 5200mAh 100C LiPo batteries**—plenty of discharge capacity to handle speed pulls without sag. For control, I selected the **Flysky FS-iA6B 2.4GHz receiver**, mostly because it’s affordable and works with my existing transmitter.
+
+I also looked into tire options. I learned that regular rubber tires tend to balloon at high speed, which messes with handling. Belted slicks or foam tires are the way to go if I want straight-line stability. I’ll hold off on tires until I figure out my gearing.
+
+Finally, I made a full BOM (Bill of Materials) on AliExpress. I calculated everything including shipping and taxes. The total cost at this stage was **\$129.49**, which leaves plenty of room in my \$400 budget.
+
 ---
 
-## **Day 1** (05/26/2025)
+## Day 2 (03/25/2025)
 
-* Did research on what components are best  
-  * Compared thrust, KV, and RMP curves for multiple 5-inch prop motors   
-  * Selected the:  
-    *  Axisflying Bando 2207.5 1960 KV motors based on their torque and top-end RPM on 6 S  
-  * Also chose a 65A 4 in 1 ESC for the motors  
-    * 3065 AM32 65 A 4-in-1 ESC  
-  * Compared flight controllers to see what is best and whether I should use F7 flight computers, but instead opted to use the F4 flight computer  
-    * Matek F405-HDTE  
-      * Has an STM32F405  
-      * MPU6000  
-      * Onboard OSD  
-      * And built a current sensor   
-  * Also did research on what propeller size I should be using and decided a 5-inch is best for a high-speed drone, so I chose:  
-    * HQProp Ethix S4 5×4.5×3 tri-blades  
-  * Also decided to use a 6S battery as the motors would run at max speed with it  
-    * 2pcs CNHL Lipo Battery 6S 22.2V 1100mAh 1500mah 100C With XT60 For RC FPV Quadcopter Airplane Helicopter Hobby  
-    *   
-* Lastly made a BOM of all parts to see how much it would cost, and the exact price with tax and shipping is **$304.20**
+Started sketching the layout of the electronics and components. Since I don’t have a specific chassis yet (intentionally keeping it open-ended), I focused on a modular layout that could work with multiple 1/10 scale frames. I drew rough diagrams of motor placement, ESC position, and battery tray.
 
-## **Day 2** (05/27/2025)
+One thing I made sure of was to plan cable routing paths early. I want the build to look clean, so I decided to run ESC wires under the battery tray using printed channels. For the receiver, I planned to mount it vertically to keep the antennae free of signal obstructions.
 
-* Made a sketch of a frame to work with the 5-inch props and made sure the center of gravity would not be messed up   
-* Drew the sketch in Fusion 360 and made a 240mm diameter motor-to-motor spacing  
-* Modeled the body with channels to route wires going from the ESC to the motors   
-* Added other channels to hide wires   
-* Added a low-profile canopy   
-* Did not add mounting holes, as I will be using a soldering iron with brass inserts   
-* Beefed up sections under high loads
-  
-## **Day 3** (05/28/2025)
+Also spent time looking at pinion and spur gear combos. To hit 50+ mph, I’ll need aggressive gearing, but I also don’t want to overheat the motor. I started looking at aluminum spur gears for durability under load. No purchases yet, just window shopping and taking notes.
 
-* Fixed some geometry of the drone and reduced weight  
-* Added more channels for battery wires  
-* Started to make the GitHub repository (This was done a little later the day after (I might or might not have feel asleep))
-* Added all parts to an Excel sheet and saw how much tax and shipping fees were on Aliexpress  
-* Added everything to the BOM and finalized last-minute changes  
-* 3D printed the frame with carbon reinforced filament (Nozzle is cooked)   
-* The frame was printed at:  
-  * Nozzle: 230 °C  
-  * Bed: 100 °C  
-  * Infill: Gyroid at 50% infill   
-  * 0.2mm layers   
-  * Speed: 75%   
-  * Slicer: Cura
+---
 
- ## **My Story** 
+## Day 3 (04/10/2025)
 
-* Ever since I started my sophomore year of high school, I have wanted to take on a project that was ambitious. After months of brainstorming, I came up with a couple of ideas, such as building a rover, a high-speed drone, or rockets. After debating and consulting my sibling, I decided to watch videos on drone builds, and I was amazed! All of the parts available and the electronics just shocked me. How did they think of this? How was this made? After countless videos, I came up with a rough list of requirements: carbon frame, high-kv motors, all-in-one ESC, 4s lipo, lightweight, and cool paint job. After adding up the costs of all parts, I found it to be very expensive, as all parts totaled $500. This was way too much and still is way too much for my family (low income), so I decided to put the entire project to the side and build rockets instead (Way cheaper). But after getting bored of rockets, I came back to the drone project due to "highway" and decided to update the parts and reduce costs as I could reuse what I had. For example, I have a 6s lipo, so I adapted the ESC to that and got rid of the battery (4s one). The total cost for the new BOM proved to be way less, and has got me excited, as I have a plan for this drone that I will hopefully build.
-* 
+Took the sketches from Day 2 and turned them into a Fusion 360 model. I made a prototype electronics tray that can be mounted to most chassis using zip ties or screws. Included slots for zip ties and wire guides to avoid messy wiring later on.
 
+Also created a battery tray that would work with my 5200mAh LiPo. Printed it in **PETG** to withstand heat and flexing. Used the following print settings:
 
+* Nozzle Temp: 230°C
+* Bed Temp: 80°C
+* Infill: 50% Gyroid
+* Layer Height: 0.2 mm
+* Print Speed: 75%
+* Slicer: Cura
+
+The tray came out clean and fit the battery well. This gave me confidence to move forward with more printed parts. I also added all part numbers and links into an Excel sheet and uploaded it to the GitHub repo I started for this build.
+
+---
+
+## Day 4 (05/03/2025)
+
+Finally started installing components. Mounted the 3650 motor using a basic **540-size aluminum motor mount**. Fit was snug, and I aligned it properly to avoid mesh issues later. ESC was mounted just behind the battery tray, and I gave it airflow clearance to help with cooling.
+
+Had to reprint one of the wire channels after realizing the insulation on my **12 AWG** wires was thicker than I expected. Cut the channel deeper and used a soldering iron to smooth it out.
+
+I also printed a custom receiver mount and installed it near the servo bay. Tucked in the wires and added foam padding for shock absorption. Tried to paint the battery cover with acrylics, but it instantly peeled off the PETG. Forgot to sand and prep—classic mistake.
+
+---
+
+## Day 5 (06/30/2025)
+
+Today was the big soldering day. Got up early and knocked it all out in one go. Soldered motor wires to the ESC, and the joints turned out clean. Connected power leads and verified voltage with a multimeter. Receiver powered on instantly, and it **bound to my transmitter on the first try**, which was a nice surprise.
+
+Throttle and steering channels both worked perfectly. Servo centered without any twitching or calibration issues. Zip-tied the wiring and used heat shrink tubing wherever possible to protect joints. The whole layout is compact and solid.
+
+Weighed the final build with batteries. It’s not ultra-light, but that’s good—it should give me enough traction at launch. Took the car out for a quick spin down the alley, and even with 20% throttle, it took off fast. Didn’t push it yet. Next test will involve GPS speed tracking to see how close I am to the 50 mph goal.
+
+I’m super happy with the progress so far. Project is nearly done unless I decide to upgrade the tires, body shell, or fine-tune gearing later. This was a huge learning experience, and I’m hyped to see how it performs on a full throttle pass.
