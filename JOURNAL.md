@@ -21,7 +21,7 @@ I also looked at how actual RC shells are mounted. Most use clips or Velcro tabs
 
 Started the actual modeling process in Fusion 360. I used a reference blueprint for a 1/10 touring car to get accurate proportions. Then I began blocking out a body shell with four flared fenders, aggressive side skirts, and a slightly scooped hood.
 
-The roofline was tricky—I didn’t want it to look too boxy or too rounded. I ended up with a teardrop shape that slopes toward the back, sort of like a GT racer. I also added a short ducktail spoiler for visual balance.
+The roofline was tricky, I didn’t want it to look too boxy or too rounded. I ended up with a teardrop shape that slopes toward the back, sort of like a GT racer. I also added a short ducktail spoiler for visual balance.
 
 Since I plan to add electronics later, I left extra space in key areas: under the hood (for motor/ESC), behind the cab (for the battery), and added draft lines for wire routing. These are only visual guides for now, but they’ll help when I start cutting or modifying the body for real hardware.
 ![image](https://github.com/user-attachments/assets/95edd458-7624-4ea3-ac67-85e39f139670)
@@ -32,7 +32,7 @@ Since I plan to add electronics later, I left extra space in key areas: under th
 
 Refined the main shape of the body shell. Smoothed out all sharp transitions using fillets and made sure the thickness of the body was uniform all around (2mm). This would make it easier to print and also more realistic.
 
-I spent a lot of time designing the front end. Added a fake grille and intake vents, not functional of course, but they make the design look way more serious. Also experimented with headlight pockets just for detail—they’re empty but look cool.
+I spent a lot of time designing the front end. Added a fake grille and intake vents, not functional of course, but they make the design look way more serious. Also experimented with headlight pockets just for detail they’re empty but look cool.
 
 For the rear, I designed a wide diffuser and exhaust cutouts. The back end now looks planted and aggressive. I also mocked up side mirrors and molded-in window outlines.
 
@@ -50,7 +50,7 @@ Also designed a functional-looking hood scoop and indented vents over the front 
 ![image](https://github.com/user-attachments/assets/47071df9-54a9-491b-88f8-8a9f795034e0)
 ![image](https://github.com/user-attachments/assets/c91919da-51e4-4c80-b58b-ae7696757fb9)
 
-I will be 3d printing  the front half of the body full-size in PETG to test panel fit and curvature. (when the components arrive) Print settings:
+I will be 3d printing  the front half of the body full size in PETG to test panel fit and curvature. (when the components arrive) Print settings:
 
 * Nozzle Temp: 230°C
 * Bed Temp: 80°C
