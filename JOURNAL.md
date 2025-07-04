@@ -1,9 +1,9 @@
 ---
 
-title: "rc\_speedway"
+title: "rc_speedway"
 author: "Kiyan Kesheh"
 description: "50 mph rc speedster!"
-created\_at: "2025-03-14"
+created at: "2025-03-14"
 ---
 
 ## Day 1 (03/14/2025)
@@ -16,7 +16,6 @@ I also looked into tire options. I learned that regular rubber tires tend to bal
 
 Finally, I made a full BOM (Bill of Materials) on AliExpress. I calculated everything including shipping and taxes. The total cost at this stage was **\$129.49**, which leaves plenty of room in my \$400 budget.
 
----
 
 ## Day 2 (03/25/2025)
 
@@ -26,7 +25,6 @@ One thing I made sure of was to plan cable routing paths early. I want the build
 
 Also spent time looking at pinion and spur gear combos. To hit 50+ mph, I’ll need aggressive gearing, but I also don’t want to overheat the motor. I started looking at aluminum spur gears for durability under load. No purchases yet, just window shopping and taking notes.
 
----
 
 ## Day 3 (04/10/2025)
 
@@ -43,7 +41,6 @@ Also created a battery tray that would work with my 5200mAh LiPo. Printed it in 
 
 The tray came out clean and fit the battery well. This gave me confidence to move forward with more printed parts. I also added all part numbers and links into an Excel sheet and uploaded it to the GitHub repo I started for this build.
 
----
 
 ## Day 4 (05/03/2025)
 
@@ -53,7 +50,6 @@ Had to reprint one of the wire channels after realizing the insulation on my **1
 
 I also printed a custom receiver mount and installed it near the servo bay. Tucked in the wires and added foam padding for shock absorption. Tried to paint the battery cover with acrylics, but it instantly peeled off the PETG. Forgot to sand and prep—classic mistake.
 
----
 
 ## Day 5 (06/30/2025)
 
