@@ -12,7 +12,7 @@ Spent the whole day researching what body styles are used in high speed 1/10 sca
 
 Eventually, I chose a low slung, wide body style with a slight cab forward design. Since I plan to install components later, I kept in mind space for the motor, ESC, battery, and wiring while shaping the shell. For now, I’m focusing on just the body design and fit.
 
-I also looked at how actual RC shells are mounted. Most use clips or Velcro tabs, so I added placeholder slots into my draft in case I want to make it mountable later. No BOM or electronics just yet—this is the first step of a two phase project.
+I also looked at how actual RC shells are mounted. Most use clips or Velcro tabs, so I added placeholder slots into my draft in case I want to make it mountable later. No BOM or electronics just yet this is the first step of a two phase project.
 ![image](https://github.com/user-attachments/assets/b862e293-32e0-4e63-9be4-bc1ccb5d5410)
 
 ---
