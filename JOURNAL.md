@@ -6,57 +6,58 @@ description: "50 mph rc speedster!"
 created at: "2025-03-14"
 ---
 
-## Day 1 (03/14/2025)
+Day 1 (03/14/2025)
 
-Spent the whole day researching what components would be best for a high-speed 1/10 scale RC car. My main goal was to build something that could reach 50+ mph without breaking the bank. I compared a ton of different motors based on torque curves, RPM limits, and KV ratings. After some digging, I decided on the **Surpass Hobby Rocket 3650 3900KV motor**. It had solid reviews and a proven track record in lightweight RC speed builds. For the ESC, I went with a **60A unit** that could handle high amp draw under full throttle without thermal shutdowns.
+Spent the whole day researching what body styles are used in high-speed 1/10 scale RC cars. My main goal was to design and 3D model a sleek and aerodynamic body that looked fast and aggressive. I looked at a bunch of real RC speed builds, as well as full-scale supercars, and started sketching side profiles that combined elements from both.
 
-To power the whole setup, I picked **HOOVO 4S 5200mAh 100C LiPo batteries**—plenty of discharge capacity to handle speed pulls without sag. For control, I selected the **Flysky FS-iA6B 2.4GHz receiver**, mostly because it’s affordable and works with my existing transmitter.
+Eventually, I chose a low-slung, wide-body style with a slight cab-forward design. Since I plan to install components later, I kept in mind space for the motor, ESC, battery, and wiring while shaping the shell. For now, I’m focusing on just the body design and fit.
 
-I also looked into tire options. I learned that regular rubber tires tend to balloon at high speed, which messes with handling. Belted slicks or foam tires are the way to go if I want straight-line stability. I’ll hold off on tires until I figure out my gearing.
+I also looked at how actual RC shells are mounted. Most use clips or Velcro tabs, so I added placeholder slots into my draft in case I want to make it mountable later. No BOM or electronics just yet—this is the first step of a two-phase project.
 
-Finally, I made a full BOM (Bill of Materials) on AliExpress. I calculated everything including shipping and taxes. The total cost at this stage was **\$129.49**, which leaves plenty of room in my \$400 budget.
+Day 2 (03/25/2025)
 
+Started the actual modeling process in Fusion 360. I used a reference blueprint for a 1/10 touring car to get accurate proportions. Then I began blocking out a body shell with four flared fenders, aggressive side skirts, and a slightly scooped hood.
 
-## Day 2 (03/25/2025)
+The roofline was tricky—I didn’t want it to look too boxy or too rounded. I ended up with a teardrop shape that slopes toward the back, sort of like a GT racer. I also added a short ducktail spoiler for visual balance.
 
-Started sketching the layout of the electronics and components. Since I don’t have a specific chassis yet (intentionally keeping it open-ended), I focused on a modular layout that could work with multiple 1/10 scale frames. I drew rough diagrams of motor placement, ESC position, and battery tray.
+Since I plan to add electronics later, I left extra space in key areas: under the hood (for motor/ESC), behind the cab (for the battery), and added draft lines for wire routing. These are only visual guides for now, but they’ll help when I start cutting or modifying the body for real hardware.
 
-One thing I made sure of was to plan cable routing paths early. I want the build to look clean, so I decided to run ESC wires under the battery tray using printed channels. For the receiver, I planned to mount it vertically to keep the antennae free of signal obstructions.
+Day 3 (04/10/2025)
 
-Also spent time looking at pinion and spur gear combos. To hit 50+ mph, I’ll need aggressive gearing, but I also don’t want to overheat the motor. I started looking at aluminum spur gears for durability under load. No purchases yet, just window shopping and taking notes.
+Refined the main shape of the body shell. Smoothed out all sharp transitions using fillets and made sure the thickness of the body was uniform all around (2mm). This would make it easier to print and also more realistic.
 
+I spent a lot of time designing the front end. Added a fake grille and intake vents, not functional of course, but they make the design look way more serious. Also experimented with headlight pockets just for detail—they’re empty but look cool.
 
-## Day 3 (04/10/2025)
+For the rear, I designed a wide diffuser and exhaust cutouts. The back end now looks planted and aggressive. I also mocked up side mirrors and molded-in window outlines.
 
-Took the sketches from Day 2 and turned them into a Fusion 360 model. I made a prototype electronics tray that can be mounted to most chassis using zip ties or screws. Included slots for zip ties and wire guides to avoid messy wiring later on.
+Printed a scaled-down version just to see how it looked in physical form. Even though it was a mini, the stance came through really well. Once I finalize the electronics later, I’ll return to modify these prints for airflow and fit.
 
-Also created a battery tray that would work with my 5200mAh LiPo. Printed it in **PETG** to withstand heat and flexing. Used the following print settings:
+Day 4 (05/03/2025)
 
-* Nozzle Temp: 230°C
-* Bed Temp: 80°C
-* Infill: 50% Gyroid
-* Layer Height: 0.2 mm
-* Print Speed: 75%
-* Slicer: Cura
+Worked on details and made sure there was enough clearance for all the electronics I plan to install. Added a sunroof cutout, rear glass vent lines, and sharp crease lines on the door panels to break up the surface.
 
-The tray came out clean and fit the battery well. This gave me confidence to move forward with more printed parts. I also added all part numbers and links into an Excel sheet and uploaded it to the GitHub repo I started for this build.
+Also designed a functional-looking hood scoop and indented vents over the front fenders. These don’t work (yet), but if I want to add real airflow paths later, the design can be adapted.
 
+I 3D printed the front half of the body full-size in PETG to test panel fit and curvature. Print settings:
 
-## Day 4 (05/03/2025)
+Nozzle Temp: 230°C
 
-Finally started installing components. Mounted the 3650 motor using a basic **540-size aluminum motor mount**. Fit was snug, and I aligned it properly to avoid mesh issues later. ESC was mounted just behind the battery tray, and I gave it airflow clearance to help with cooling.
+Bed Temp: 80°C
 
-Had to reprint one of the wire channels after realizing the insulation on my **12 AWG** wires was thicker than I expected. Cut the channel deeper and used a soldering iron to smooth it out.
+Infill: 20% Grid
 
-I also printed a custom receiver mount and installed it near the servo bay. Tucked in the wires and added foam padding for shock absorption. Tried to paint the battery cover with acrylics, but it instantly peeled off the PETG. Forgot to sand and prep—classic mistake.
+Layer Height: 0.2 mm
 
+Slicer: Cura
 
-## Day 5 (06/30/2025)
+No major warping or fit issues. A few tweaks might be needed when I start placing real motors and wiring.
 
-Today was the big soldering day. Got up early and knocked it all out in one go. Soldered motor wires to the ESC, and the joints turned out clean. Connected power leads and verified voltage with a multimeter. Receiver powered on instantly, and it **bound to my transmitter on the first try**, which was a nice surprise.
+Day 5 (06/30/2025)
 
-Throttle and steering channels both worked perfectly. Servo centered without any twitching or calibration issues. Zip-tied the wiring and used heat shrink tubing wherever possible to protect joints. The whole layout is compact and solid.
+Finalized the RC body shell model today. Added support ribs on the inside to stiffen the shell once electronics are installed. Smoothed out every seam and transition, double-checked dimensions, and aligned everything to a central axis.
 
-Weighed the final build with batteries. It’s not ultra-light, but that’s good—it should give me enough traction at launch. Took the car out for a quick spin down the alley, and even with 20% throttle, it took off fast. Didn’t push it yet. Next test will involve GPS speed tracking to see how close I am to the 50 mph goal.
+Made a rear wing that mounts directly onto the tail section using two simple posts. Also added cut lines to the STL so it can be printed in smaller sections for printers with a smaller build volume.
 
-I’m super happy with the progress so far. Project is nearly done unless I decide to upgrade the tires, body shell, or fine-tune gearing later. This was a huge learning experience, and I’m hyped to see how it performs on a full throttle pass.
+Exported everything and uploaded it to GitHub along with renders, print settings, and screenshots from Fusion 360. Super proud of how clean and sharp the body looks—totally looks like it could rip at 50+ mph once it’s fully assembled.
+
+Now that the body is done, the next phase will be sourcing the electronics and chassis components. I already have plans for a 3650 brushless motor, ESC, and high-discharge LiPo setup. All dimensions and clearance zones in the model were made with this in mind. Can’t wait to see the whole thing come together for real.
