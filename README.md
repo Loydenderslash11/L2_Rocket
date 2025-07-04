@@ -10,6 +10,7 @@
 | Battery (2pcs)     | [HOOVO 4S 5200mAh 100C LiPo 14.8V](https://www.aliexpress.us/item/3256809092629167.html?spm=a2g0o.cart.0.0.1abb38daCHboRL&mp=1&pdp_npi=5%40dis%21USD%21USD%20181.11%21USD%2048.02%21%21USD%2048.02%21%21%21%402103241117516018528261598e8a01%2112000048592771474%21ct%21US%216209890675%21%211%210&_gl=1*11xv4lk*_gcl_aw*R0NMLjE3NTE2MDEzMzIuQ2owS0NRancxSmpEQmhEakFSSXNBQmxNMlNzSmpMVG5ydFRnQWs1ZmdxQmJyeTBxdXd2eFpJYTF1SFl0MDE3YUFGNk0wck50QXBZS29XRWFBcUpERUFMd193Y0I.*_gcl_au*MTE0OTU5MjUuMTc1MTYwMTMwMQ..*_ga*MTk5NDM0NDkxMTIxNzA3NC4xNzUxNjAxMjk0NTc0*_ga_VED1YSGNC7*czE3NTE2MDEzMDEkbzEkZzEkdDE3NTE2MDE4NTUkajU4JGwwJGgw&gatewayAdapt=glo2usa)                         | HOOVO Local Store       |  1  | $48.02   | Free     | $48.02  |
 
 ---
+![image](https://github.com/user-attachments/assets/2a0962d0-b69c-41f7-b873-9485b7ca36c1)
 
 ## Summary (From AliExpress):
 - **Parts Total:** $290.93  
