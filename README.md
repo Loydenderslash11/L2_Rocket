@@ -4,7 +4,7 @@ Welcome to the repository for **Project MightyMouse**, my custom-designed **Leve
 
 ---
 
-## 📐 Rocket Specifications
+##  Rocket Specifications
 
 | Attribute             | Specification                           |
 |----------------------|------------------------------------------|
@@ -22,7 +22,7 @@ Welcome to the repository for **Project MightyMouse**, my custom-designed **Leve
 
 ---
 
-## 🧱 Construction Details
+##  Construction Details
 
 - **Airframe:** PVC pipe wrapped in carbon fiber cloth, hardened with epoxy resin
 - **Modules:** All modules 3D printed in PETG for strength and temperature resistance
