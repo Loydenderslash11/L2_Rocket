@@ -47,6 +47,8 @@ started at: "2025-03-14"
 * **Infill:** 20% Grid  
 * **Layer Height:** 0.2 mm  
 * **Slicer:** Cura
+<img width="634" height="804" alt="image" src="https://github.com/user-attachments/assets/7be39ba3-2368-4820-9e6c-186fc860f582" />
+<img width="301" height="651" alt="image" src="https://github.com/user-attachments/assets/ed22468e-710e-4fbc-a04b-383a53494a06" />
 
 - Printed full-size nose cone and fins successfully in PETG
 - Performed basic fit checks on components
