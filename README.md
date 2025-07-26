@@ -43,11 +43,11 @@ This table includes pricing and purchase links for all components used in the ro
 | **Altimeter**    | MissileWorks RRC3                          | ~$101      | [MissileWorks / Apogee Rockets](https://www.apogeerockets.com/Electronics-Payloads/Altimeters/RRC3-Sport-Altimeter) |
 | **Backup Altimeter** | AltusMetrum EasyMini                  | ~$100      | [AltusMetrum](https://altusmetrum.org/EasyMini/) |
 | **Battery**      | 2S 7.4V 30C LiPo Battery                   | $8         | [2S 7.4V 30C LiPo Battery](https://www.amazon.com/Crazepony-400mAh-Battery-Racing-Quadcopter/dp/B07PF8ZJKX) |
-| **Shock Cord**   | Kevlar Shock Cord (20ft)                    | $12        | [Apogee - Kevlar Cord](https://www.apogeerockets.com/Building-Supplies/Shock-Cord/Kevlar-Shock-Cord-4500-20-feet-long-2-loops) |
-| **Drogue Chute** | 12″ Drogue Parachute                       | $25        | [Apogee - Parachute](https://www.apogeerockets.com/Building_Supplies/Parachutes_Recovery_Equipment/Parachutes/DuraChute_Nylon_Parachutes) |
-| **Main Chute**   | 24–30″ Main Parachute                      | $50        | [Apogee - Parachute](https://www.apogeerockets.com/Building_Supplies/Parachutes_Recovery_Equipment/Parachutes/DuraChute_Nylon_Parachutes) |
-| **Eyebolts**     | M4 eyebolts, washers, locknuts             | $8         | [Amazon - Eyebolt Kit](https://www.amazon.com/dp/B08M6GN7LC) |
-| **E-matches**    | Igniter pack (for BP charges)              | $12        | [Rocketry Supplier - E-Matches](https://www.wildmanrocketry.com/ProductDetail.aspx?product=3508) |
+| **Shock Cord**   | Kevlar Shock Cord (20ft)                    | $34.99        | [Apogee - Kevlar Cord](https://www.apogeerockets.com/Building-Supplies/Shock-Cord/Kevlar-Shock-Cord-4500-20-feet-long-2-loops) |
+| **Drogue Chute** | 12″ Drogue Parachute                       | $20        | [Apogee - Parachute](https://www.apogeerockets.com/Building-Supplies/Parachutes/Drogue-Parachutes/Explorer-12in-Drogue-Chute) |
+| **Main Chute**   | 24–30″ Main Parachute                      | $15        | [Apogee - Parachute](https://www.apogeerockets.com/Building-Supplies/Parachutes/Larger-than-24in/30in-Printed-Nylon-Parachute) |
+| **Eyebolts**     | M4 eyebolts, washers, locknuts             | $12         | [Amazon - Eyebolt Kit](https://www.amazon.com/Stainless-Steel-Bolts-Washers-Lifting/dp/B0BQ3C7M73?th=1) |
+| **E-matches**    | Igniter pack (Slim Gem Starters)              | $24        | [Apogee - Starters](https://www.apogeerockets.com/Rocket_Motors/Motor_Starters/Slim_Gem_Starters) |
 | **Threadlocker** | Loctite Blue 242 (6ml)                     | $8         | [Amazon - Loctite 242](https://www.amazon.com/Loctite-Threadlocker-Removable-Adhesive-Single/dp/B000I1RSNS) |
 
 ---
