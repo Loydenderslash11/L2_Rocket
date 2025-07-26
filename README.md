@@ -8,7 +8,7 @@ Welcome to the repository for **Project MightyMouse**, my custom-designed **Leve
 
 | Attribute             | Specification                           |
 |----------------------|------------------------------------------|
-| **Rocket Name**       | Project Skidburn                        |
+| **Rocket Name**       | Project MightyMouse                       |
 | **Total Length**      | 45 inches                               |
 | **Diameter**          | 45 mm (≈ 1.77 in)                       |
 | **Dry Weight**        | 1.0 kg (without motor)                  |
