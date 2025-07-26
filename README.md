@@ -40,9 +40,9 @@ This table includes pricing and purchase links for all components used in the ro
 | **Filament**     | eSUN PETG 1 kg spool                       | $21.99     | [Amazon - eSUN PETG](https://www.amazon.com/eSUN-Filament-Dimensional-Accuracy-Printing/dp/B07FXD1K8Y) |
 | **Epoxy Kit**    | West System 105-B + 206-B (1 gal kit)      | $176.21    | [Amazon - West System Epoxy Kit](https://www.amazon.com/West-System-105-B-Epoxy-Hardener/dp/B0C3MY967W) |
 | **Resin Only**   | West System 105-B Resin (1 gal)            | $114.03    | [Fisheries Supply - 105-B Resin](https://www.fisheriessupply.com/west-system-105-epoxy-resin/105-b) |
-| **Altimeter**    | MissileWorks RRC3                          | ~$130      | [MissileWorks / Apogee Rockets](https://www.apogeerockets.com/Electronics/Payload_Bays/MissileWorks_RRC3_Altimeter) |
+| **Altimeter**    | MissileWorks RRC3                          | ~$101      | [MissileWorks / Apogee Rockets](https://www.apogeerockets.com/Electronics-Payloads/Altimeters/RRC3-Sport-Altimeter) |
 | **Backup Altimeter** | AltusMetrum EasyMini                  | ~$100      | [AltusMetrum](https://altusmetrum.org/EasyMini/) |
-| **Battery**      | 2S LiPo 400 mAh                            | $8         | [Amazon Example](https://www.amazon.com/dp/B087BGR25B) |
+| **Battery**      | 2S 7.4V 30C LiPo Battery                   | $8         | [2S 7.4V 30C LiPo Battery](https://www.amazon.com/Crazepony-400mAh-Battery-Racing-Quadcopter/dp/B07PF8ZJKX) |
 | **Shock Cord**   | Kevlar Shock Cord (5 m)                    | $12        | [Apogee - Kevlar Cord](https://www.apogeerockets.com/Building_Supplies/Parachutes_Recovery_Equipment/Shock_Cord/Kevlar_Shock_Cord) |
 | **Drogue Chute** | 12″ Drogue Parachute                       | $25        | [Apogee - Parachute](https://www.apogeerockets.com/Building_Supplies/Parachutes_Recovery_Equipment/Parachutes/DuraChute_Nylon_Parachutes) |
 | **Main Chute**   | 24–30″ Main Parachute                      | $50        | [Apogee - Parachute](https://www.apogeerockets.com/Building_Supplies/Parachutes_Recovery_Equipment/Parachutes/DuraChute_Nylon_Parachutes) |
